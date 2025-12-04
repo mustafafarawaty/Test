@@ -26,11 +26,11 @@ GET /api/profile
 
 Get /api/users 
 
-- Get User By Id
+- Get User By Id (self and Admin)
 
 GET /api/users/{user}
 
-- Update User Info
+- Update User Info (update roles is from Admin)
 
 PATCH /api/users/{user}
 
